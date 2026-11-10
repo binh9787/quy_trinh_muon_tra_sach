@@ -23,6 +23,5 @@ Mở `index.html` bằng trình duyệt. Không cần cài đặt gì.
 URL: (điền sau khi triển khai)   Commit/tag: (điền)
 
 ## Giới hạn đã biết
-- Chưa kiểm tra trên Firefox, Safari, thiết bị thật; chưa chạy W3C Validator hay Lighthouse.
-- Chưa đo độ tương phản màu bằng công cụ.
-- Số liệu quy định là giả định minh họa.
+- Đã kiểm tra trên firefox,các trình duyệt web 
+- - Số liệu quy định là giả định minh họa.
