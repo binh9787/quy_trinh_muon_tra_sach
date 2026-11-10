@@ -20,7 +20,7 @@ Mở `index.html` bằng trình duyệt. Không cần cài đặt gì.
 2. Settings -> Pages -> chọn nhánh `main`, thư mục `/ (root)`.
 3. Mở URL GitHub Pages và đối chiếu với commit đã nộp.
 
-URL: (điền sau khi triển khai)   Commit/tag: (điền)
+URL:https://binh9787.github.io/quy_trinh_muon_tra_sach/
 
 ## Giới hạn đã biết
 - Đã kiểm tra trên firefox,các trình duyệt web 
