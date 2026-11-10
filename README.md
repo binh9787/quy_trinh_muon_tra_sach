@@ -8,7 +8,7 @@ Quy trình là mô hình minh họa do sinh viên xây dựng, không phải quy
 index.html       Trang chủ
 quy-trinh.html   Quy trình 6 bước, 3 trường hợp khi trả sách, bảng vai trò
 quy-dinh.html    Bảng quy định, checklist, câu hỏi thường gặp
-css/style.css    File CSS riêng style.css
+style.css    File CSS riêng style.css
 README.md 
 ```
 
