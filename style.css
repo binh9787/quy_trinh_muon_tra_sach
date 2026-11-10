@@ -1,0 +1,126 @@
+/* ===== Chung ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222222;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 { color: #14284b; font-size: 28px; }
+h2 { color: #14284b; font-size: 22px; }
+h3 { margin-top: 0; }
+
+a { color: #0b4fb3; }
+
+/* ===== Header và menu ===== */
+header {
+  background-color: #14284b;
+  color: white;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 5px 0;
+}
+
+nav a:hover { text-decoration: underline; }
+nav a.active { color: #ffb98a; font-weight: bold; }
+
+/* ===== Banner trang chủ ===== */
+.banner {
+  background-color: #d9560b;
+  color: white;
+  padding: 30px 0;
+}
+
+.banner h1 { color: white; margin-top: 0; }
+
+.btn {
+  display: inline-block;
+  background-color: #14284b;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn:hover { background-color: #0a1730; }
+
+/* ===== Hộp nội dung ===== */
+.box {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row .box { flex: 1; }
+
+.stat { text-align: center; }
+.stat .number {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #d9560b;
+}
+
+.step-list li { margin-bottom: 12px; }
+
+.green { border-top: 4px solid green; }
+.orange { border-top: 4px solid orange; }
+.red { border-top: 4px solid red; }
+
+/* ===== Bảng ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th { background-color: #14284b; color: white; }
+
+/* ===== Footer ===== */
+footer {
+  background-color: #14284b;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* ===== Màn hình nhỏ (điện thoại) ===== */
+@media (max-width: 600px) {
+  .row { display: block; }
+  h1 { font-size: 24px; }
+  nav a { margin-right: 10px; }
+}

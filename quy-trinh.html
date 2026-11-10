@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quy trình - Mượn trả sách thư viện</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrapper">
+    <div class="logo">Thư viện - Mượn trả sách</div>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="quy-trinh.html" class="active">Quy trình</a>
+      <a href="quy-dinh.html">Quy định</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrapper">
+  <h1>Quy trình mượn - trả sách: 6 bước</h1>
+
+  <ol class="step-list">
+    <li id="buoc1"><b>Tìm sách</b> (sinh viên)<br>Tra mã sách trên danh mục hoặc tìm trên giá sách.</li>
+    <li id="buoc2"><b>Đăng ký mượn</b> (sinh viên)<br>Mang sách và thẻ sinh viên tới quầy thủ thư.</li>
+    <li id="buoc3"><b>Kiểm tra điều kiện</b> (thủ thư)<br>Kiểm tra thẻ, số sách đang mượn, tình trạng sách và việc nợ phí.</li>
+    <li id="buoc4"><b>Ghi phiếu mượn</b> (thủ thư)<br>Ghi ngày mượn, ngày hẹn trả (sau 14 ngày), mã sách, mã sinh viên.</li>
+    <li id="buoc5"><b>Trả hoặc gia hạn</b> (sinh viên và thủ thư)<br>Mang sách tới quầy, thủ thư so ngày trả với phiếu mượn.</li>
+    <li id="buoc6"><b>Ghi nhận và xếp sách lên giá</b> (thủ thư)<br>Đóng phiếu, thu phí nếu có, kiểm tra sách rồi xếp lại vào giá.</li>
+  </ol>
+
+  <h2 id="tra-sach">Khi trả sách có 3 trường hợp</h2>
+  <div class="row">
+    <div class="box green">
+      <h3>Đúng hạn</h3>
+      <p>Không mất phí. Có thể gia hạn 1 lần, thêm 7 ngày, nếu chưa ai đặt trước.</p>
+    </div>
+    <div class="box orange">
+      <h3>Trễ hạn</h3>
+      <p>Phí = số quyển x số ngày trễ x 2.000đ. Nộp phí xong mới được mượn tiếp.</p>
+    </div>
+    <div class="box red">
+      <h3>Mất hoặc hỏng sách</h3>
+      <p>Lập biên bản, mua sách cùng tên hoặc đền theo giá bìa.</p>
+    </div>
+  </div>
+
+  <h2 id="vai-tro">Bảng vai trò</h2>
+  <table>
+    <tr>
+      <th>Bước</th>
+      <th>Người làm</th>
+      <th>Kết quả</th>
+    </tr>
+    <tr><td>1. Tìm sách</td><td>Sinh viên</td><td>Có mã sách cần mượn</td></tr>
+    <tr><td>2. Đăng ký mượn</td><td>Sinh viên</td><td>Thủ thư nhận yêu cầu</td></tr>
+    <tr><td>3. Kiểm tra điều kiện</td><td>Thủ thư</td><td>Đồng ý hoặc từ chối</td></tr>
+    <tr><td>4. Ghi phiếu mượn</td><td>Thủ thư</td><td>Phiếu có ngày hẹn trả</td></tr>
+    <tr><td>5. Trả hoặc gia hạn</td><td>Sinh viên, thủ thư</td><td>Đúng hạn, trễ hạn hoặc mất sách</td></tr>
+    <tr><td>6. Ghi nhận</td><td>Thủ thư</td><td>Đóng phiếu, sách về giá</td></tr>
+  </table>
+</div>
+
+<footer>
+  <div class="wrapper">
+    <p>Bài tập lớn A3 - FIT4014 - Trường Đại học Đại Nam.<br>
+    Quy trình trong website này là mô hình minh họa do sinh viên tự xây dựng, không phải quy định chính thức của thư viện nào.</p>
+  </div>
+</footer>
+
+</body>
+</html>
