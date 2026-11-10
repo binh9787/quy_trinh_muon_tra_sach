@@ -23,5 +23,6 @@ Mở `index.html` bằng trình duyệt. Không cần cài đặt gì.
 URL:https://binh9787.github.io/quy_trinh_muon_tra_sach/
 
 ## Giới hạn đã biết
-- Đã kiểm tra trên firefox,các trình duyệt web 
-- - Số liệu quy định là giả định minh họa.
+- Đã kiểm tra trên firefox (Firefox phiên bản 160.0 64 Bit)
+- Đã kiểm tra trên Edge (Edge phiên bản 157.0.4341.42)
+- Số liệu quy định là giả định minh họa.
